@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' . .. "$(ls -df .[^.]*)" "$(ls -p | grep -v '/$' | LC_ALL=C sort -df)" "$(ls -dp */)"
+printf '%s\n' ./ ../ "$(ls -df .[^.]*)" "$(ls -p | grep -v '/$' | LC_ALL=C sort -df)" "$(ls -dp */)"
